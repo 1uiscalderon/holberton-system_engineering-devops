@@ -1,1 +1,1 @@
-Loops, conditions and parsing manual
+Manual Loops, conditions and parsing
