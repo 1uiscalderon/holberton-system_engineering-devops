@@ -6,7 +6,7 @@ while [ $i -lt 11 ]
      if [ $i -eq 4 ]
      then
         echo "bad luck"
-     elif [ $i -eq 7 ]
+     elif [ $i -eq 8 ]
      then
         echo "good luck"
      else
