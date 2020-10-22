@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Bash script that displays the content of the file /etc/passwd 
+# https://www.cyberciti.biz/faq/unix-howto-read-line-by-line-from-file/#:~:text=How%20to%20Read%20a%20File%20Line%20By%20Line%20in%20Bash&text=The%20input%20file%20(%20%24input%20),bash%20while%20loop%20will%20stop..
+route="/etc/passwd"
+while IFS=: read -r f1 f2 f3 f4 f5 f6 f7
+do
+    echo "The user $f1 is part of the $f4 gang, lives in $f6 and rides $f7.\
+ $f3's place is protected by the passcode $f2, more info about the user here: $f5" 
+done < "$route"
