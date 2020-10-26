@@ -1,1 +1,1 @@
-Manual of processes and signal
+Manual
