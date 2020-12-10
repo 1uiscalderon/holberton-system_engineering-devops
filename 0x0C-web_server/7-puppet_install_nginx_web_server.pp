@@ -2,7 +2,6 @@
 
 package { 'nginx':
   ensure => installed,
-  name   => 'nginx',
 }
 
 file { 'index.html':
