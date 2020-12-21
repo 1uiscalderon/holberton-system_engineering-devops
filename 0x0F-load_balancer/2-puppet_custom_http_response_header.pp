@@ -19,6 +19,7 @@ file_line { 'Header instruction':
   path   => '/etc/nginx/sites-available/default',
   after  => 'server_name _;',
   line   => 'add_header X-Served-By "$HOSTNAME";',
+  require => Package['nginx'],
 }
 service { 'nginx':
   ensure  => running,
