@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-# Change listening on port 80
+# Change listening on port 80 kill $(ps aux | grep '[n]ginx' | awk '{print $2}')  rm /var/run/nginx.pid;
 sudo sed -i 's/8080/80/g' /etc/nginx/sites-enabled/default
-sudo service nginx restart
 pkill -1 nginx
