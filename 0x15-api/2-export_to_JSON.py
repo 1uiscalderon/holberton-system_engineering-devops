@@ -17,7 +17,7 @@ if __name__ == "__main__":
     for task in tasks:
         dict_.append({"task": task.get("title"),
                      "completed": task.get("completed"),
-                      "username": user.get("name")})
+                      "username": user.get("username")})
     with open(f_name, 'w', newline='') as f:
         d = {}
         d[argv[1]] = dict_

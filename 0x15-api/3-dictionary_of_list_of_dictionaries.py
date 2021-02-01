@@ -2,8 +2,8 @@
 """Using the REST API from https://jsonplaceholder.typicode.com/, for all
 employee ID, returns information TODO list progress, the export
 it to JASON format"""
-from requests import get
 import json
+from requests import get
 
 
 if __name__ == "__main__":
@@ -20,7 +20,7 @@ if __name__ == "__main__":
         for task in tasksuser:
             dict_.append({"task": task.get("title"),
                          "completed": task.get("completed"),
-                          "username": name.get("name")})
+                          "username": name.get("username")})
         d[userId] = dict_
     with open('todo_all_employees.json', 'w') as f:
         f.write(json.dumps(d, indent=4))
