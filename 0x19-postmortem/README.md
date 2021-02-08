@@ -1,7 +1,9 @@
 # 0x19. Postmortem
 This is a fake postmortem , where in an API infrastructure an outage ocurred. 
 The following is the incident report for the Mama Ines API infrastructure outage that occurred on January23, 2021. We recognize that our respected developers and customers have been affected by this service issue, and we apologise to anyone who was impacted.
-![](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.mercadoslpineda.co%2Fes%2Fcroissant%2F442-croissant-mama-ines-x-330-g-20-unds.html&psig=AOvVaw126MV7QbvVYh1TNs5OjqLm&ust=1612830152385000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLjcg96C2e4CFQAAAAAdAAAAABAD)
+<div align="center">
+    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.mercadoslpineda.co%2Fes%2Fcroissant%2F442-croissant-mama-ines-x-330-g-20-unds.html&psig=AOvVaw126MV7QbvVYh1TNs5OjqLm&ust=1612830152385000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLjcg96C2e4CFQAAAAAdAAAAABAD">
+</div>
 ## Issue Summary 
 Requests to most Mama Ines APIs culminated in 500 error-response messages from 7:31 PM to 9:21 PM PT. The apps that rely on these APIs often return or have decreased feature errors. At its height, 100% of the traffic to this API infrastructure was impacted by the problem. Certain APIs that operate on different infrastructures will continue to be accessed by users.An invalid configuration change that revealed a flaw in a commonly used internal library was the root cause of this outage.
 ## Timeline
