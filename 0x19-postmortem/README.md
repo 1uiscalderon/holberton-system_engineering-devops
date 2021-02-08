@@ -4,7 +4,8 @@ The following is the incident report for the Mama Ines API infrastructure outage
 <div align="center">
     <img src="https://pbs.twimg.com/media/B1Eb-cIIYAANaQ0.png">
 </div>
-## Issue Summary 
+
+## Issue Summary
 Requests to most Mama Ines APIs culminated in 500 error-response messages from 7:31 PM to 9:21 PM PT. The apps that rely on these APIs often return or have decreased feature errors. At its height, 100% of the traffic to this API infrastructure was impacted by the problem. Certain APIs that operate on different infrastructures will continue to be accessed by users.An invalid configuration change that revealed a flaw in a commonly used internal library was the root cause of this outage.
 ## Timeline
 07:31 PM - Outage begins.
