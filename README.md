@@ -22,4 +22,5 @@ Loops, conditions, parsing, pocesses, signals, regular expressions, networking b
 9|[0x07-networking_basics](./0x07-networking_basics)| Networking basics
 10|[0x08-networking_basics_2](./0x08-networking_basics_2)| Networking basics 2
 11|[0x09-web_infrastructure_design](./0x09-web_infrastructure_design)| Web infrastructure
+12|[0x0A-configuration_management](./0x0A-configuration_management)| Configuration management
 </div>
